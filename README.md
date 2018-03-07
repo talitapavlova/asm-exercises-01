@@ -16,7 +16,8 @@ Exercises - Assembler Session 01
     * Open the *Processor Status* window and verify that register *R16* contains the correct value.
 
 
-*Use the simulator in Atmel Studio 7 to verify your solutions to the following exercises.*
+*Use the simulator in Atmel Studio 7 to verify your solutions to the following exercises.  
+Commit your solution at the end of each exercise.*
 
 3. Write a program that:
     * puts the decimal value 42 into register R16
@@ -25,15 +26,17 @@ Exercises - Assembler Session 01
 
 1. Write a program that add the values 0x08 and 0xb3. Place the result in R18.
 
-*Do the following exercises using the STK600 development board.*
+*Do the following exercises using the STK600 development board.  
+Commit your solution at the end of each exercise.*
 
-5. Create a new Atmel Studio project and replace the default code with this:  
-    ```avrasm
-        ldi r16, 0xff       ; load the bit pattern 1111 1111 into r16
-        out ddra, r16       ; write the bit pattern to port a's data direction register
-        ldi r16, ~(1<<pina) ; invert the bit pattern 0000 0001 and write it to r16
-        out porta, r16      ; write the pattern to port a's output control register
-    ```
-    * Make sure that port a and the leds are connected.
+5. Hello World (or turn on an led)
+    * Open the "HelloWorld" Atmel Studio project.
+    * Make sure that port a and the leds are connected
     * Build the project, and program the stk600 board
     * Verify that the rightmost led got turned on
+
+1. Try to change the program so that led 3 is turned on instead  
+    (commit changes when done)
+
+1. Modify the program so that the led is turned on and off continuously.  
+    Hint: jump instruction is `rjmp` and a label looks like `mylabel:`  
