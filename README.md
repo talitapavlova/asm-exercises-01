@@ -8,6 +8,7 @@ The intended way to work on these exercises is to make a fork of the repository,
 Solve / implement the exercises creating a new project for each of them (unless an exercise builds on the previous) - then commit at least once after each solved exercise.
 
 ```sh
+git add <filenames(s) / --all>
 git commit -m"Your description of what you have done"
 git push
 ```
