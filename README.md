@@ -5,9 +5,14 @@ How-to
 ------
 The intended way to work on these exercises is to make a fork of the repository, and then work on your own fork. 
 
-Solve / implement the exercises creating a new project for each of them (except for the case when an exercise builds on the previous) and then commit at least once after each solved exercise.
+Solve / implement the exercises creating a new project for each of them (unless an exercise builds on the previous) - then commit at least once after each solved exercise.
 
-Whan you are done you are (more than) welcome to make a pull request, and I shall do my best to give you my feedback.
+```sh
+git commit -m"Your description of what you have done"
+git push
+```
+
+When done you are (more than) welcome to make a pull request, and I shall do my best to give you my feedback.
 
 Now, let's get going!
 
