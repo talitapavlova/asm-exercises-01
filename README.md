@@ -1,1 +1,2 @@
-# asm-exercises_01
+Exercises - Assembler Session 01
+================================
