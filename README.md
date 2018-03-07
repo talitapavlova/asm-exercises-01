@@ -21,8 +21,8 @@ Atmel Studio Tutorial
     * How big is the program memory of the atmega2560 and how much ram does it have?
     * Replace the default code with 
         ```avrasm 
-            ldi r16, 0b0100_0010
-            nop
+            ldi r16, 0b0100_0010    ; load value into register r16
+            nop                     ; does nothing, but provides a place to put a breakpoint
         ```  
     * Place a breakpoint before `nop` and start debugging(F5). 
     * Open the *Processor Status* window and verify that register *R16* contains the correct value.
