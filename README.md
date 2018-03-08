@@ -20,6 +20,8 @@ Now, let's get going!
 Exercises
 ---------
 
+All code should be written in assembler.
+
 1. Open Atmel Studio and on the Start Page select *Download Documentation* (alternatively: Help > Add and Remove Help Content)
     * Download the "AVR Instruction Set Manual" and documentation for Atmel Studio and STK600 AVR Flash MCU Start Kit.
     * Open the "AVR Instruction Set Manual" and find the description of `LDI`. Which registers can we load data into with `LDI`? Explain how this is related to the 16-bit Opcode for `LDI`.
@@ -44,6 +46,8 @@ Commit your solution at the end of each exercise.*
     * puts the binary value 10110010 into register R18
 
 1. Write a program that add the values 0x08 and 0xb3. Place the result in R18.
+
+1. Write a program that calculates `34 + (55 - 12) + (3 * 33)` and puts the result in r16.
 
 *Do the following exercises using the STK600 development board.  
 Commit your solution at the end of each exercise.*
