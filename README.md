@@ -5,7 +5,7 @@ How-to
 ------
 The intended way to work on these exercises is to make a fork of the repository, and then work on your own fork. 
 
-Solve / implement the exercises creating a new project for each of them (unless an exercise builds on the previous) - then commit at least once after each solved exercise.
+Solve / implement the exercises creating a new AS7 project for each of them (unless an exercise builds on the previous) - then commit at least once after each solved exercise.
 
 ```sh
 git add <filenames(s) / --all>
@@ -52,7 +52,7 @@ Commit your solution at the end of each exercise.*
 *Do the following exercises using the STK600 development board.  
 Commit your solution at the end of each exercise.*
 
-5. Hello World (or turn on an led)
+5. Hello World (or turn on a led)
     * Open the "HelloWorld" Atmel Studio project.
     * Make sure that port a and the leds are connected
     * Build the project, and program the stk600 board
