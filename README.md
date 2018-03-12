@@ -52,7 +52,7 @@ Commit your solution at the end of each exercise.*
 *Do the following exercises using the STK600 development board.  
 Commit your solution at the end of each exercise.*
 
-5. Hello World (or turn on a led)
+6. Hello World (or turn on a led)
     * Open the "HelloWorld" Atmel Studio project.
     * Make sure that port a and the leds are connected
     * Build the project, and program the stk600 board
