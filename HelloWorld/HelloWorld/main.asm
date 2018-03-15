@@ -5,7 +5,9 @@
 ; Author : chfs
 ;
 
-                            ; SETUP
+    
+start:
+	                        ; SETUP
     ldi r16, 0xff           ; load the bit pattern 1111 1111 into r16
     out ddra, r16           ; write the bit pattern to port a's data direction register
 
@@ -13,3 +15,4 @@
     ldi r16, ~(4<<pa0)      ; invert the bit pattern 0000 0001 and write it to r16
     out porta, r16          ; write the pattern to port a's output control register
 	nop
+	rjmp start				; start from begining
